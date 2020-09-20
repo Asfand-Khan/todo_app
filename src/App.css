@@ -3,3 +3,10 @@
   padding: 0;
   text-align: center;
 }
+.App{
+  width: 1000px;
+  margin: 10px auto;
+  display: flex!important;
+  flex-direction: column;
+  align-items: center;
+}

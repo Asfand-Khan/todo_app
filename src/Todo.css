@@ -1,0 +1,11 @@
+.todo{
+    width: 500px;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    border-bottom: 1px solid lightgray;
+}
+.todo__input{
+    text-transform: capitalize;
+}
