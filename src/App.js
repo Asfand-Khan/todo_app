@@ -28,7 +28,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>ToDo's</h1>
+      <h1 style={{color:"#3f51b5"}}>ToDo's</h1>
       <form>
       <TextField id="standard-basic" label="Write Your ToDo" value={input} onChange={e => setInput(e.target.value)} />
       <Button type='submit' variant="contained" color="primary" onClick={addTodo} disabled={!input}>
